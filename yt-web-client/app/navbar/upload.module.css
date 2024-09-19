@@ -1,0 +1,31 @@
+/* Hide the default input */
+.uploadInput {
+  display: none;
+}
+
+/* Upload button styling */
+.uploadButton {
+  display: flex; /* Use Flexbox to center the icon */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 40px; /* Increased size for better visibility */
+  height: 40px; /* Increased size for better visibility */
+  border-radius: 50%; /* Make it circular */
+  background-color: lightgray; /* Background color for better visibility */
+  color: black; /* Color of the text */
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 0.4em;
+}
+
+/* Hover effect for the upload button */
+.uploadButton:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* SVG icon size adjustment */
+.iconSize {
+  width: 24px; /* Width of the SVG icon */
+  height: 24px; /* Height of the SVG icon */
+}
