@@ -21,6 +21,8 @@ A YouTube-like platform where users can upload, view, and interact with videos. 
 
 ## 🏗️ Architecture
 
+![App Screenshot](./architecture.jpg)
+
 1. **Google Cloud Storage:** Stores raw and processed videos in separate buckets.
 2. **Google Cloud Pub/Sub:** Handles messaging between video upload and processing services.
 3. **Google Cloud Run:** Hosts the video processing service (for transcoding) and the Next.js web client.
